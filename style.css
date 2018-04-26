@@ -1,0 +1,266 @@
+/*
+Theme Name: dandachi
+Theme URI: http://shabbir.me/
+Author: Underscores.me
+Author URI: http://shabbir.me/
+Description: This is WordPress theme by Mostaifz Shabbir
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: dandachi
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+dandachi is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+
+@font-face {
+  font-family: 'GESSTwoMedium';
+
+  src: url('fonts/GESSTwoMedium.otf');
+}
+body{
+	 font-family: 'GESSTwoMedium';
+   direction: rtl;
+}
+body.rtl .col-md-1, body.rtl .col-md-10, body.rtl .col-md-11, body.rtl .col-md-12, body.rtl .col-md-2, body.rtl .col-md-3,  body.rtl .col-md-4, body.rtl .col-md-5, body.rtl .col-md-6, body.rtl .col-md-7, body.rtl .col-md-8, body.rtl .col-md-9 {
+	float: right;
+}
+.navbar-brand {
+	float: left;
+	height: inherit;
+	padding: 15px 15px;
+	font-size: 18px;
+	line-height: 20px;
+}
+.navbar-default {
+	background-color: #ffffff;
+  border-color: transparent;
+}
+.navbar-nav > li > a {
+	padding: 50px 20px;
+	font-size: 16px;
+	color: #000000;
+}
+.navbar-nav > li > a:hover{
+
+}
+.totop{
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	display: none;
+
+}
+.totop a img{
+	width: 100%;
+    zen-index: 99999;
+}
+.logo-all{
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+.logo-all a.navbar-brand-ar{
+  text-align: right:
+  display: block;
+}
+.navbar-header {
+	float: none;
+}
+.banner img{
+  width: 100%;
+}
+.navbar-nav {
+	float: none;
+	margin: 0;
+	text-align: center;
+}
+.navbar-nav > li {
+	float: none;
+	display: inline;
+}
+.nav > li > a {
+	position: relative;
+	display: inline-block;
+	padding: 10px 15px;
+  color: #ffffff;
+  border-left: 1px solid #408db0;
+}
+.dental-tabs .nav > li > a {
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+	color: #fff;
+	border-left: 1px solid #408db0;
+	background: #56bdec;
+	margin-bottom: 10px;
+	width: 184px;
+	text-align: center;
+	border-radius: 50px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+	color: #fff;
+	cursor: default;
+	background-color: #248ab8;
+	border: 1px solid #ddd;
+	border-bottom-color: transparent;
+}
+.nav-tabs > li > a:hover{
+  background: #248ab8 !important;
+  opacity: 0.5;
+  transition: .5s;
+}
+.nav > li:last-child > a{
+    border-left: none;
+}
+.main-menu{
+  background: #56bdec;
+}
+.nav > li > a:hover{
+  background: inherit;
+  opacity: 0.5;
+  transition: .5s;
+}
+
+.hamid-dondes{
+  padding: 30px 0;
+}
+.ham-cont h2{
+  color: #3a92ba;
+  font-size: 18px;
+}
+.ham-cont p{
+  width: 40%;
+}
+.ham-img img {
+	width: 100%;
+}
+.hamid-goal{
+  background: #56bdec;
+  padding: 30px 0;
+  border-top: 15px solid #f1f852;
+  border-bottom: 15px solid #f1f852;
+}
+.ham-goalcont a{
+  color: #ffffff;
+  display: block;
+  margin-top: 50px;
+}
+.carousel-image-gallerty{
+  direction: ltr;
+  padding: 10px 0;
+}
+.single-slide img{
+  height: 200px;
+}
+.about-usf{
+  margin-top: 30px;
+}
+.about-usf p{
+  text-align: center;
+}
+.social-link h2{
+  font-size: 13px;
+  margin: 0;
+  text-align: center;
+}
+.linkurl a{
+  display: block;
+  text-align: left;
+  padding: 3px 0;
+  color: #0f0f0f;
+  text-decoration: none;
+  font-size: 15px;
+}
+.linkurl img {
+	margin-right: 7px;
+}
+.linkurl {
+  padding-top: 20px;
+  width: 70%;
+  margin: auto;
+}
+.copy-right-text p {
+	direction: ltr;
+	font-family: tahoma;
+	text-align: center;
+	background: #f1f852;
+	padding: 15px;
+	margin: 0;
+}
+.footer-widget{
+  padding: 20px 0;
+}
+.hamm-cont h2{
+	color: #3a92ba;
+	font-size: 18px;
+}
+.hamb-cont h2 {
+	color: #3a92ba;
+	font-size: 18px;
+}
+.hamb-cont p {
+	font-size: 16px;
+}
+
+.card {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	
+}
+.card-header:first-child {
+	border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+.card-header {
+	margin-bottom: 0px;
+	
+}
+.card-block {
+	padding: 13px;
+}
+.card-header a {
+	display: block;
+	background: #56bdec;
+	color: #fff;
+	padding: 15px;
+	border: 1px solid #007eb7;
+	border-radius: 20px !important;
+	text-decoration: none;
+	margin: 4px 0;
+}
+.accordion-section{
+	padding: 50px 0;
+}
+.accordion-section h2{
+	color: #3a92ba;
+	font-size: 18px;
+}
+.card {
+	word-wrap: break-word;
+}
+.dental-tabs {
+	padding: 50px 0;
+}
+
+
+.nav-tabs {
+	border-bottom: 1px solid transparent;
+}
+
